@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch"
+  },
+  "devDependencies": {
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsdom": "^18.0.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.6",
+    "sentiment": "^5.0.2",
+    "webextension-polyfill": "^0.8.0"
+  }
+}

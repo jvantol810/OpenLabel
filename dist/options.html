@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google News Tap Options</title>
+    <script src="build/options.js"></script>
+</head>
+<body>
+    <form>
+        <h1>Google News Tap Options</h1>
+        <h3>Label type:</h3>
+        <input type="radio" id="labelType0" name="labelType" value="0" checked>
+        <label for="labelType0">
+            <b>Mouse Over</b>
+            <div>A label will appear when your mouse hovers over certain links. It will disappear when your mouse moves away.</div>
+        </label>
+        <input type="radio" id="labelType1" name="labelType" value="1">
+        <label for="labelType1">
+            <b>Right Click</b>
+            <div>Right clicking a link will give you the option to display a label.</div>
+        </label>
+        <input type="radio" id="labelType2" name="labelType" value="2">
+        <label for="labelType2">
+            <b>Redirect</b>
+            <div>Clicking on a link will reroute you to a page displaying the label before you proceed to the site.</div>
+        </label>
+        <input type="radio" id="labelType3" name="labelType" value="3">
+        <label for="labelType3">
+            <b>Automatic</b>
+            <div>Labels are automatically attached to links without user input.</div>
+        </label>
+        
+        <div>
+            <button type="button" id="saveButton">Save Changes</button>
+            <button type="button" id="undoButton">Undo Changes</button>
+            <button type="button" id="resetButton">Reset to Default</button>
+        </div>
+    </form>
+</body>
+</html>
